@@ -1,14 +1,14 @@
-# Vigenère Cipher in C
+# Vigenere Cipher in C
 
-This repository contains a clean and modular implementation of the **Vigenère cipher**, written in C.  
+This repository contains a clean and modular implementation of the **Vigenere cipher**, written in C.  
 It allows you to encrypt and decrypt messages using a user-defined keyword.  
 Perfect for learning polyalphabetic cryptography and C programming fundamentals.
 
 ---
 
-## 📖 What is the Vigenère Cipher?
+## 📖 What is the Vigenere Cipher?
 
-The Vigenère cipher is a classic encryption method that improves upon the Caesar cipher by using a keyword to vary the shift for each letter.  
+The Vigenere cipher is a classic encryption method that improves upon the Caesar cipher by using a keyword to vary the shift for each letter.  
 It applies a different Caesar shift for each letter based on the corresponding letter of the key.
 
 ---
