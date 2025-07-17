@@ -17,7 +17,7 @@ int main() {
         printf("2. Decrypt\n");
         printf("Choose an option: ");
         scanf("%d", &option);
-        while ((getchar()) != '\n'); // limpiar buffer
+        while ((getchar()) != '\n'); 
 
         printf("Enter the message: ");
         fgets(message, sizeof(message), stdin);
@@ -27,7 +27,7 @@ int main() {
         fgets(key, sizeof(key), stdin);
         key[strcspn(key, "\n")] = '\0';
 
-        // Convert key to uppercase for uniformity
+       
         for (int i = 0; key[i]; i++) {
             key[i] = toupper(key[i]);
         }
