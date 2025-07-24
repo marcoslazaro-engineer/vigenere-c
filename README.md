@@ -47,7 +47,7 @@ Spaces, digits, and symbols remain unchanged.
 ##  How to Compile?
 
 ```bash
-gcc main.c -o vigenere
+gcc -o vigenere vigenere.c
 ## How to run?
 ./vigenere       # on Linux/macOS
 vigenere.exe     # on Windows (Code::Blocks or cmd)
