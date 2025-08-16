@@ -12,9 +12,9 @@ int main() {
     char repeat = 'y';
 
     while (repeat == 'y' || repeat == 'Y') {
-        printf("===== VIGENERE CIPHER =====\n");
-        printf("1. Encrypt\n");
-        printf("2. Decrypt\n");
+        printf(" VIGENERE CIPHER \n");
+        printf("1 Encrypt\n");
+        printf("2 Decrypt\n");
         printf("Choose an option: ");
         scanf("%d", &option);
         while ((getchar()) != '\n'); 
